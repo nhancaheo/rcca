@@ -1,0 +1,88 @@
+/* YOUR CUSTOM STYLES */
+/* TEMPLATE STYLES */
+/* Necessary for full page carousel*/
+
+html,
+body {
+    height: 100%;
+}
+/* Navigation*/
+.navbar {
+    background-color: transparent;
+}
+#blog > .navbar {
+    background-color: #304a74;
+}
+
+.top-nav-collapse {
+    background-color: #304a74;
+}
+#languages,
+#languages a{
+    color: #fff;
+}
+
+footer.page-footer {
+    background-color: #304a74;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+}
+
+.scrolling-navbar {
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+/* Carousel*/
+
+#top-carousel {
+    height: 60%;
+}
+
+@media (max-width: 776px) {
+    #top-carousel {
+        height: 100%;
+    }
+}
+
+#top-carousel > .carousel-inner > .carousel-item,
+#top-carousel > .carousel-inner > .active {
+    height: 100%;
+}
+
+#top-carousel > .carousel-inner {
+    height: 100%;
+}
+/*Caption*/
+
+.flex-center {
+    color: #fff;
+}
+.navbar .btn-group .dropdown-menu a:hover {
+    color: #000 !important;
+}
+.navbar .btn-group .dropdown-menu a:active {
+    color: #fff !important;
+}
+
+#blog-main {
+    margin-top: 5rem;
+}
+.call-to-action{
+    background-color: #33b5e5;
+    color: #fff;
+}
+.logo {
+    max-width: 30%;
+}
+.social-links a {
+    margin-right: 0.5rem;
+}
+#contact-form .form-control,
+#contact-form textarea {
+    color: #fff;
+}
